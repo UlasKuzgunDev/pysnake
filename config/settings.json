@@ -1,0 +1,50 @@
+{
+    "keys": {
+        "up": "w",
+        "down": "s",
+        "right": "d",
+        "left": "a"
+    },
+    "snake": {
+        "head": "0",
+        "body": "o"
+    },
+    "game": {
+        "wall": "#",
+        "food": "*",
+        "mode": {
+            "0": {
+                "name": "speed up",
+                "frame delay x": 0.07,
+                "frame delay y": 0.15,
+                "speed factor": 45
+            },
+            "1": {
+                "name": "easy",
+                "frame delay x": 0.1,
+                "frame delay y": 0.2
+            },
+            "2": {
+                "name": "normal",
+                "frame delay x": 0.07,
+                "frame delay y": 0.15
+            },
+            "3": {
+                "name": "faster",
+                "frame delay x": 0.05,
+                "frame delay y": 0.1
+            },
+            "4": {
+                "name": "hard",
+                "frame delay x": 0.03,
+                "frame delay y": 0.07
+            },
+            "5": {
+                "name": "insane",
+                "frame delay x": 0.015,
+                "frame delay y": 0.035
+            }
+        },
+        "current mode": "4"
+    }
+}
